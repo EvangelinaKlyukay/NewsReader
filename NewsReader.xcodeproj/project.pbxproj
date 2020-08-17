@@ -14,6 +14,7 @@
 		A6EA1B8424EAAB7700AC95F7 /* NewsReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1B8224EAAB7700AC95F7 /* NewsReader.xcdatamodeld */; };
 		A6EA1B8624EAAB7900AC95F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1B8524EAAB7900AC95F7 /* Assets.xcassets */; };
 		A6EA1B8924EAAB7900AC95F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EA1B8724EAAB7900AC95F7 /* LaunchScreen.storyboard */; };
+		A6EA1B9124EAACFB00AC95F7 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA1B9024EAACFB00AC95F7 /* News.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A6EA1B8524EAAB7900AC95F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6EA1B8824EAAB7900AC95F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6EA1B8A24EAAB7900AC95F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EA1B9024EAACFB00AC95F7 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A6EA1B7924EAAB7700AC95F7 /* AppDelegate.swift */,
 				A6EA1B7B24EAAB7700AC95F7 /* SceneDelegate.swift */,
 				A6EA1B7D24EAAB7700AC95F7 /* ViewController.swift */,
+				A6EA1B9024EAACFB00AC95F7 /* News.swift */,
 				A6EA1B7F24EAAB7700AC95F7 /* Main.storyboard */,
 				A6EA1B8524EAAB7900AC95F7 /* Assets.xcassets */,
 				A6EA1B8724EAAB7900AC95F7 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				A6EA1B7E24EAAB7700AC95F7 /* ViewController.swift in Sources */,
 				A6EA1B7A24EAAB7700AC95F7 /* AppDelegate.swift in Sources */,
 				A6EA1B7C24EAAB7700AC95F7 /* SceneDelegate.swift in Sources */,
+				A6EA1B9124EAACFB00AC95F7 /* News.swift in Sources */,
 				A6EA1B8424EAAB7700AC95F7 /* NewsReader.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
