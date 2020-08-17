@@ -8,6 +8,12 @@
 
 import Foundation
 
-class News {
+struct News {
+    
+    let title: String
+    let details: String
+    let author: String
+    let date: Date
+    let previewUrl: URL?
     
 }
