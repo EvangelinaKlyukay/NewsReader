@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct News {
+struct Article {
     
     let title: String
     let details: String
