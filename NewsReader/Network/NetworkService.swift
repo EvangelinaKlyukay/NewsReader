@@ -13,7 +13,7 @@ struct NetworkService {
    
     static func load(onSuccess:  ((RSSFeed) -> ())?, onFail: ((Error) -> ())?) {
                 
-        guard let feedURL = URL(string: "http://vc.ru/rss") else {
+        guard let feedURL = URL(string: "https://www.popmech.ru/out/public-technologies.xml") else {
             let error = NSError(domain: "NetworkManager", code: -1, userInfo: [NSLocalizedDescriptionKey: "Не могу создать URL с RSS"])
             onFail?(error)
             return

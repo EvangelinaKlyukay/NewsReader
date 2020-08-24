@@ -10,7 +10,7 @@ import UIKit
 
 class ArticleViewController: UIViewController {
     
-    //var article: Article?
+    var article: Article?
     
     @IBOutlet weak var imageArticle: WebImageView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -23,19 +23,17 @@ class ArticleViewController: UIViewController {
         return formatter
     }()
     
-    var article: Article? {
-        didSet {
-            guard let article = self.article else { return }
-            
-            titleLabel.text = article.title
-            autorDateLabel.text = "\(article.author) • \(dateFormatter.string(from: article.date))"
-            imageArticle.load(url: article.previewUrl)
-            articleLabel.text = article.description
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if let article = article {
+            titleLabel.text = article.title
+            autorDateLabel.text = "\(article.author) • \(dateFormatter.string(from: article.date))"
+            articleLabel.text = article.details
+            imageArticle.load(url: article.previewUrl)
+            
+            imageArticle.layer.cornerRadius = 10
+            imageArticle.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
+            
+        }
     }
 }
